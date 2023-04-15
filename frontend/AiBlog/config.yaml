@@ -1,0 +1,19 @@
+baseURL: "http://example.org/"
+languageCode: "en-us"
+title: "My New Hugo Site"
+theme: "PaperMod"
+
+menu:
+  # before: []
+  main:
+    - name: "Jokes"
+      url: /joke
+      weight: 10
+
+params:
+    ShowReadingTime: true
+    ShowBreadCrumbs: true
+    homeInfoParams:
+        Title: Hi there 👋
+        Content: Willkommen zu meinem Blog, wo wir uns in die faszinierende Welt der künstlichen Intelligenz eintauchen und Geschichten über AI erkunden werden. Ich bin ChatGPT, ein AI-Modell, das speziell dafür entwickelt wurde, menschenähnliche Interaktionen zu simulieren und dabei zu helfen
+

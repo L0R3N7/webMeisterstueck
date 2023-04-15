@@ -1,0 +1,26 @@
+{{ define "main" }}
+{{ .Content }}
+
+<button id="btn-load-joke" style="border: solid 2px #9f9f9f;; border-radius: 15px; padding:.25rem; margin: 1rem 0; ">new Joke</button>
+<p id="joke-content">adsfasdf</p>
+
+<script>
+document.getElementById("btn-load-joke").addEventListener("click", ()=>{loadJoke()}); 
+
+function loadJoke(){
+  fetch('http://localhost:8080/api/ai/randomJoke')
+  .then(response => response.text())
+  .then(data => {
+    console.log(data); // logs the text response to the console
+    document.getElementById("joke-content").innerText = data; 
+  })
+  .catch(error => {
+    console.error('Error:', error);
+  });
+}
+
+loadJoke(); 
+
+</script>
+
+{{ end }}
