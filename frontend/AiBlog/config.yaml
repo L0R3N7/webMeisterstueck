@@ -1,7 +1,7 @@
 baseURL: "https://student.cloud.htl-leonding.ac.at/l.litzlbauer"
 languageCode: "en-us"
 title: "My New Hugo Site"
-theme: "PaperMod"
+theme: "papermod"
 
 menu:
   # before: []
