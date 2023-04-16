@@ -1,4 +1,4 @@
-baseURL: "http://example.org/"
+baseURL: "https://student.cloud.htl-leonding.ac.at/l.litzlbauer"
 languageCode: "en-us"
 title: "My New Hugo Site"
 theme: "PaperMod"
@@ -7,7 +7,7 @@ menu:
   # before: []
   main:
     - name: "Jokes"
-      url: /joke
+      url: /l.litzlbauer/joke
       weight: 10
 
 params:
