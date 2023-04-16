@@ -1,13 +1,13 @@
 baseURL: "https://student.cloud.htl-leonding.ac.at/l.litzlbauer"
-languageCode: "en-us"
-title: "My New Hugo Site"
+languageCode: "de-at"
+title: "OpenAIBlog"
 theme: "papermod"
 
 menu:
   # before: []
   main:
     - name: "Jokes"
-      url: /l.litzlbauer/joke
+      url: /joke
       weight: 10
 
 params:
