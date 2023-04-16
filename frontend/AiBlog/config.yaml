@@ -5,10 +5,10 @@ theme: "papermod"
 
 menu:
   # before: []
-  main:
-    - name: "Jokes"
-      url: /joke
-      weight: 10
+  #main:
+  #  - name: "Jokes"
+  #    url: /joke
+  #    weight: 10
 
 params:
     ShowReadingTime: true
